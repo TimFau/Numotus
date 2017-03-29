@@ -1,0 +1,5 @@
+1. Remove subtitle & place video playlist there instead
+
+2. Replace soundcloud single player with playlist
+
+3. 

@@ -1,0 +1,218 @@
+/* General */
+body {
+    background-image: url(StockImg/composite2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 500px;
+}
+/* Headings */
+.shows h2, .soundcloud h2, .follow h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    opacity: .9;
+    padding-top: 25px;
+    color: white;
+    font-weight: 600;
+}
+.maincontent {
+    /* background-color: rgba(0, 0, 0, .5); */
+}
+/* Header: Logo, tagline and Nav */
+header {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+.logo {
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 70%;
+}
+.logo img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.tagline {
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    text-shadow: 2px 2px grey;
+    font-weight: 800;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.menu-wrapper {
+    height: 10vh;
+}
+.top_container {
+    background: rgba(0, 0, 0, .8);
+    height: 10vh;
+    width: 100%;
+}
+.top {
+    width: 80%;
+    margin: 0 auto;
+}
+.socialicons {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding-top: 18px;
+}
+.socialicons li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 7px;
+}
+.socialicons li:hover {
+    opacity: .5;
+}
+.socialicons li img {
+    width: 90%;
+}
+nav {
+    float: left;
+    padding-top: 22px;
+    font-size: 18px;
+}
+nav a {
+    color: white;
+}
+nav a:hover {
+    text-decoration: none;
+    opacity: .5;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    color: white;
+    font-weight: 800;
+    padding: 0px 0px;
+    text-transform: uppercase
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+/* Video Area */
+.video-container {
+    background: url(StockImg/pexels-photo-167092.jpeg);
+    background-position: center
+}
+.video {
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.video h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* Soundcloud */
+.soundcloud-container {
+    /* background: rgba(255, 255, 255, .9); */
+    height: 100vh;
+}
+.soundcloud {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 25px 0;
+}
+
+.soundcloud iframe {
+    margin: 10px 0px;
+}
+/* Shows */
+.shows-container {
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background: url(StockImg/concert_pexels-photo-70222.jpeg);
+    background-position: bottom;
+}
+.shows {
+    width: 80%;
+    margin: 0 auto;
+}
+.shows h2 {
+    text-align: right;
+    padding-top: 80px;
+}
+.show-item {
+    width: 31.3%;
+    height: 150px;
+    float: left;
+    padding: 20px 20px;
+    margin: 20px 1%;
+    background: rgba(0, 0, 0, .3);
+    opacity: .7;
+}
+.show-item:hover {
+    opacity: 1.0;
+}
+.shows h4 {
+    font-size: 24px;
+}
+.shows span {
+    font-size: 14px;
+}
+.shows p {
+    font-size: 18px;
+}
+.shows a {
+    color: white;
+    border-radius: 0;
+}
+/* Social Media */
+.follow {
+    padding-top: 20px;
+    clear: both;
+}
+.social_feed {
+    width: 80%;
+    margin: 0 auto;
+}
+.sociallinks {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Copied Social */
+ul.share-buttons{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.share-buttons li{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+ul.share-buttons img{
+    width: 50px;
+    margin-right: 25px;
+}

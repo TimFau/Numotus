@@ -1,0 +1,256 @@
+/* ----- 
+General 
+----- */
+body {
+    background-image: url(StockImg/horsehead-nebula-dark-nebula-constellation-orion-87646.jpeg);
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Headings */
+.shows h2, .soundcloud h2, .follow h2, .bio h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+.section_container {
+    padding: 10vh 0px;
+    overflow: hidden;
+}
+
+/* ----- 
+Header: Logo, tagline and Nav
+----- */
+header {
+    height: 90vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+.logo {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 100%;
+}
+.logo img {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+.menu-wrapper {
+    height: 10vh;
+}
+.top_container {
+    background: rgba(0, 0, 0, .8);
+    height: 10vh;
+    min-height: 60px;
+    width: 100%;
+}
+.top {
+    width: 80%;
+    margin: 0 auto;
+}
+.socialicons {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding-top: 18px;
+}
+.socialicons li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 7px;
+}
+.socialicons li:hover {
+    opacity: .5;
+}
+.socialicons li img {
+    width: 90%;
+}
+nav {
+    float: left;
+    padding-top: 22px;
+    font-size: 18px;
+}
+nav a {
+    color: white;
+}
+nav a:hover {
+    text-decoration: none;
+    opacity: .5;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    color: white;
+    font-weight: 800;
+    padding: 0px 0px;
+    text-transform: uppercase
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Video Area */
+.video {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+
+/* -----
+Soundcloud 
+-----*/
+.soundcloud-container {
+    /* background: rgba(255, 255, 255, .9); */
+    height: 80vh;
+    background: url(StockImg/pexels-photo-167092.jpeg);
+    background-position: center;
+    padding: 10vh 0px;
+}
+.soundcloud {
+    width: 57%;
+    margin: 0 auto;
+    /* padding: 50px 0 25px 0; */
+    margin-top: -10px
+}
+.soundcloud h2 {
+    font-size: 50px;
+    padding: 0 0;
+}
+.soundcloud iframe {
+    margin: 0px auto;
+    width: 100%;
+}
+
+
+/*-----
+Bio 
+-----*/
+.bio-container {
+    background: url(StockImg/concert_pexels-photo-70222.jpeg);
+    background-position: bottom;
+}
+.bio {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.bio p {
+    width: 50%;
+    float: left;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding-right: 20px;
+}
+
+
+/*-----
+Shows
+----- */
+.shows-container {
+    width: 100%;
+    color: white;
+    /* background: url(StockImg/concert_pexels-photo-70222.jpeg); */
+}
+.shows {
+    width: 80%;
+    margin: 0px auto;
+}
+.shows h2 {
+    text-align: center;
+    padding-top: 00px;
+}
+.show-item {
+    width: 31%;
+    height: 150px;
+    float: left;
+    padding: 20px 20px;
+    margin: 20px 1.16%;
+    background: rgba(0, 0, 0, .3);
+    opacity: .7;
+}
+.show-item:hover {
+    opacity: 1.0;
+}
+.shows h4 {
+    font-size: 24px;
+}
+.shows span {
+    font-size: 14px;
+}
+.shows p {
+    font-size: 18px;
+}
+.shows a {
+    color: white;
+    border-radius: 0;
+}
+/*-----
+Social Media 
+----- */
+.follow {
+    padding-top: 20px;
+    clear: both;
+}
+.social_feed {
+    width: 80%;
+    margin: 0 auto;
+}
+.sociallinks {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Copied Social */
+ul.share-buttons{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.share-buttons li{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+ul.share-buttons img{
+    width: 50px;
+    margin-right: 25px;
+}
+
+
+/*  ------------------------------
+
+Responsive styles 
+
+--------------------------------    */
+@media screen and (min-width: 989px) {
+    header {
+        min-height: 750px; /* Prevent nav from cutting off video*/
+    }
+}
